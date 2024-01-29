@@ -4,6 +4,8 @@ import {SKILLS} from "../../utils/data";
 import SkillCard from "./SkillCard/SkillCard"
 
 const Skills = () => {
+
+  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
   return (
     <section className='skills-container'>
         <h5>Technical Proficiency</h5>
@@ -17,7 +19,9 @@ const Skills = () => {
                   />
                 ))}
             </div>
-            <div className="skills-info"></div>
+            <div className="skills-info">
+
+            </div>
         </div>
     </section>
   )

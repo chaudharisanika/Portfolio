@@ -2,7 +2,7 @@
     margin:4rem 0;
     position:relative;
 }
-.skilss-container h5{
+.skills-container h5{
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
@@ -11,10 +11,15 @@
     display: flex;
     align-items: flex-start;
     gap:3rem;
+    
 }
 .skills{
     flex:1;
     display:grid;
     grid-gap:3rem;
     grid-template-columns: repeat(2,1fr);
+
+}
+.skills-info{
+    flex:1;
 }
