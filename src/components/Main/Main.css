@@ -9,7 +9,9 @@
     width:28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background-color:  rgb(219, 24, 99);
+    /* rgb(219, 24, 99) */
+    /* #7c66e3; */
     /* background: white; */
     position: absolute;
     z-index: -1;

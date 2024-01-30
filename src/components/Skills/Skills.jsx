@@ -5,7 +5,6 @@ import SkillCard from "./SkillCard/SkillCard"
 
 const Skills = () => {
 
-  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
   return (
     <section className='skills-container'>
         <h5>Technical Proficiency</h5>
