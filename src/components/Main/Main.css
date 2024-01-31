@@ -10,9 +10,7 @@
     height: 28.125rem;
     border-radius: 28.125rem;
     background-color:  rgb(219, 24, 99);
-    /* rgb(219, 24, 99) */
     /* #7c66e3; */
-    /* background: white; */
     position: absolute;
     z-index: -1;
     filter: blur(225px);
